@@ -11,10 +11,19 @@ pip3 install tk
 pip3 install pillow
 ```
 
-## Run Counter
-Run:
+## Usage
+
+Place pictures into a folder called "<blob counter repo>/input_images/"
+
+so the file system looks like this:
+```
+<blob counter repo>/input_images/example1.jpeg
+                                /example2.jpeg
+                   /counter.py
+                   /README.md
+```
+
+Then run:
 ```
 python3 counter.py
 ```
-
-It will automatically look for pictures inside the folder "<repo>/input_images/"
